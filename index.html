@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Hotel Miranda</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger" />
+            <a href="#" class="header__left--logo">
+                <h1 class="header__left--logo--H">H</h1>
+                <h1 class="header__left--logo--name">Hotel Miranda</h1>
+            </a>
+        </div>
+
+        <div class="header__right">
+            <img src="./media/personIcon.png" alt="person icon" class="header__right--person" />
+            <img src="./media/lensIcon.png" alt="lens icon"  class="header__right--lens"/>
+        </div>
+
+        <div class="header__menu">
+            <ul class="header__menu--items">
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--about">About Us</li></a>
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--rooms">Rooms</li></a>
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--offers">Offers</li></a>
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--contact">Contact</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__info">
+            <p class="main__info--slogan">THE ULTIMATE LUXURY EXPERIENCE</p>
+            <h2 class="main__info--title">The Perfect Base For You</h2>
+            <button class="main__info--bt main__info--btTour">TAKE A TOUR</button>
+            <button class="main__info--bt main__info--btLearn">LEARN MORE</button>
+        </div>
+
+        <div class="main__availability">
+            <form class="main__availability--form">
+                <label for="arrivalDate" class="main__availability--form-text">Arrival Date</label>
+                <input type="text" name="arrivalDate" id="arrivalDate" class="main__availability--form-input" placeholder=" 24th march 2020" />
+                <label for="leDepartureDate"  class="main__availability--form-text">LeDeparture Date</label>
+                <input type="text" name="leDepartureDate" id="leDepartureDate"  class="main__availability--form-input"  placeholder="30th march 2020"/>
+                <button type="submit" class="main__availability--form-bt">CHECK AVAILABILITY</button>
+            </form>
+        </div>
+
+        <div class="main__about">
+            <div class="main__about--underground">
+                <p class="main__about--underground--info">ABOUT US</p>
+                <h1 class="main__about--underground--title">Discover Our Underground.</h1>
+                <p class="main__about--underground--desc">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat.
+                </p>
+                <button class="main__about--underground--bt-book">BOOK NOW</button>
+            </div>
+            <img src="./media/hotelUnderground.jpg" alt="Hotel terrace" class="main__about--img main__about--img--terrace">
+            <div class="main__about--team">
+                <div class="main__about--team--strong">
+                    <img src="./media/strongTeam.png" alt="people group" />
+                    <h3 class="main__about--team--strong--title">Strong Team</h3>
+                    <p class="main__about--team--strong--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="main__about--luxury">
+                <img src="./media/suite.jpg" alt="suite room" class="main__about--luxury--img" />
+                <div class="main__about--luxury--desc">
+                    <img src="./media/calendarSuite.png" alt="Calendar icon" class="main__about--luxury--desc--icon"/>
+                    <h3 class="main__about--luxury--desc--title">Luxury Room</h3>
+                    <p class="main__about--luxury--desc--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="main__about--rooms">
+                <p class="main__about--rooms--info">ROOMS</p>
+                <h3 class="main__about--rooms--title">Hand Picked Rooms</h3>
+                <div class="main__about--rooms--icons">
+                    <img src="./media/iconBed.png" alt="a bed icon" />
+                    <img src="./media/iconWifi.png" alt="a wifi icon" />
+                    <img src="./media/iconCar.png" alt="a car icon" />
+                    <img src="./media/iconCold.png" alt="a cold icon" />
+                    <img src="./media/iconGym.png" alt="a gym icon" />
+                    <img src="./media/iconNoSmoke.png" alt="a no smoke icon" />
+                    <img src="./media/iconCocktail.png" alt="a cocktail icon" />
+                </div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="./media/gym.jpg" alt="gym of hotel" /></div>
+                      <div class="swiper-slide"><img src="./media/restaurant.jpg" alt="restaurant of hotel" /></div>
+                      <div class="swiper-slide"><img src="./media/room.jpg" alt="room of hotel" />3</div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="main__about--rooms--duplex">
+                    <h4 class="main__about--rooms--duplex--title">Minimal Duplex Room</h4>
+                    <p class="main__about--rooms--duplex--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <p><span class="main__about--rooms--duplex--price">$345</span><span class="main__about--rooms--duplex--night">/Night</span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="main__video">
+            <p class="main__video--info">INTRO VIDEO</p>
+            <h1 class="main__video--title">Meet With Our Luxury Place.</h1>
+            <p class="main__video--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
+            <video src="https://youtube.com/clip/UgkxKcpSooc7KpAgdFf4WETgmBZPKVnvARyj?si=Kyo09m0L9dEvDFg-" class="main__video--repro" controls autoplay></video>
+            <button class="main__video--bt">BOOK NOW</button>
+        </div>
+        <div class="main__facilities">
+            <p class="main__facilities--info">FACILITIES</p>
+            <h1 class="main__facilities--title">Core Features</h1>
+            <p class="main__facilities--rating">01</p>
+            <img src="./media/iconRating.png" alt="icon rating" class="main__facilities--rating--icon">
+            <h4 class="main__facilities--subtitle">Have High Rating</h4>
+            <p class="main__facilities--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+        </div>
+        <div class="main__menu">
+            <img src="/media/iconDonut.png" alt="donut icon" class="main__menu--donut">
+            <p class="main__menu--info">MENU</p>
+            <h1 class="main__menu--title">Our Foods Menu</h1>
+            <div class="main__menu--food">
+                <img src="./media/eggs.jpg" alt="eggs and bacon" class="main__menu--food--img">
+                <div class="main__menu--food--text">
+                    <h4  class="main__menu--food--text--title">Eggs & Bacon</h4>
+                    <p  class="main__menu--food--text--desc">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="main__menu--food">
+                <img src="./media/tea.jpg" alt="coffe and tea" class="main__menu--food--img">
+                <div class="main__menu--food--text">
+                    <h4  class="main__menu--food--text--title">Tea or Coffee</h4>
+                    <p  class="main__menu--food--text--desc">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="main__menu--food">
+                <img src="./media/chia.jpg" alt="chia breakfast" class="main__menu--food--img">
+                <div class="main__menu--food-text">
+                    <h4  class="main__menu--food--text--title">Chia Oatmeal</h4>
+                    <p  class="main__menu--food--text--desc">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main__slider">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./media/gym.jpg" alt="gym of hotel" /></div>
+                  <div class="swiper-slide"><img src="./media/restaurant.jpg" alt="restaurant of hotel" /></div>
+                  <div class="swiper-slide"><img src="./media/room.jpg" alt="room of hotel" />3</div>
+                </div>
+    
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

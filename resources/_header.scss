@@ -1,0 +1,53 @@
+.header{
+    
+    padding: 1em;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.29);
+
+    &__left{
+        display: inline-block;
+
+        &--logo{
+            text-decoration: none;
+            color: black;
+            margin-left: 1em;
+
+            &--H{
+                display: inline-block;
+                font-size: 1em;
+            }
+    
+            &--name{
+                display: inline-block;
+                font-size: 1em;
+            }
+        }
+
+        
+    }
+
+    &__right{
+        float: right;
+
+        &--person{
+            margin-right: 1em;
+        }
+    }
+
+    &__menu{
+        display: none;
+        width: 100%;
+
+        &--items{
+            list-style-type: none;        
+
+            &--link{
+                text-decoration: none;
+                color: black;
+                font-family: 'Archivo';
+                font-size: 1em;
+                font-weight: 600;
+                margin: 1em;
+            }
+        }
+    }
+}

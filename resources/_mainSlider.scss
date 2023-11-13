@@ -1,0 +1,18 @@
+.main__slider{
+    padding: 2em 1em;
+    .swiper{
+        width: 100%;
+        position: relative;
+        transition-property: transform;
+        display: block;
+        &-wrapper{
+            width: 100%;
+        }
+        &-slide{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
