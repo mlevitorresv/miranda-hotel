@@ -574,4 +574,38 @@ body {
   font-weight: 700;
 }
 
+.main__about--intro {
+  padding: 2em 1em;
+  background-color: #333;
+}
+.main__about--intro--slogan {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 0.2em;
+}
+.main__about--intro--title {
+  color: #FFF;
+  font-family: "Old Standard TT";
+  font-size: 3.5em;
+  font-weight: 400;
+}
+.main__about--intro--divider {
+  background-color: white;
+  padding: 0.5em;
+  width: fit-content;
+  color: #222;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+  top: 2em;
+  left: 12em;
+}
+.main__about--intro--divider--gold {
+  color: #BEAD8E;
+}
+
 /*# sourceMappingURL=style.css.map */
