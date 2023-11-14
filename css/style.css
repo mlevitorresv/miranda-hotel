@@ -574,11 +574,11 @@ body {
   font-weight: 700;
 }
 
-.main__about--intro {
+.main__us--intro {
   padding: 2em 1em;
   background-color: #333;
 }
-.main__about--intro--slogan {
+.main__us--intro--slogan {
   color: #FFF;
   font-family: "Archivo";
   font-size: 0.8em;
@@ -586,13 +586,13 @@ body {
   line-height: 1.1em;
   letter-spacing: 0.2em;
 }
-.main__about--intro--title {
+.main__us--intro--title {
   color: #FFF;
   font-family: "Old Standard TT";
   font-size: 3.5em;
   font-weight: 400;
 }
-.main__about--intro--divider {
+.main__us--intro--divider {
   background-color: white;
   padding: 0.5em;
   width: fit-content;
@@ -604,8 +604,169 @@ body {
   top: 2em;
   left: 12em;
 }
-.main__about--intro--divider--gold {
+.main__us--intro--divider--gold {
   color: #BEAD8E;
+}
+
+.main__us--video {
+  margin: 2em 1em;
+}
+.main__us--video--repro {
+  width: 100%;
+}
+
+.main__us--customer {
+  padding: 1em 1em;
+}
+.main__us--customer--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.16px;
+  text-align: center;
+}
+.main__us--customer--adventages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main__us--restaurant {
+  margin: 2em 1em;
+  padding: 1em;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+}
+.main__us--restaurant--image {
+  width: 100%;
+}
+.main__us--restaurant--info {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 1em;
+}
+.main__us--restaurant--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+.main__us--restaurant--desc {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-top: 1em;
+}
+.main__us--restaurant--bt {
+  margin-top: 1em;
+  padding: 1em 3em;
+  border: none;
+  background-color: #BEAD8E;
+  box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.36);
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.main__us--facilities {
+  background-color: #222;
+  padding: 2em 1em;
+  text-align: center;
+}
+.main__us--facilities--info {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin: 1em auto;
+}
+.main__us--facilities--title {
+  color: #FFF;
+  font-family: "Old Standard TT";
+  font-size: 3.5em;
+  font-weight: 400;
+}
+.main__us--facilities--content {
+  background-color: #292929;
+  text-align: left;
+  padding: 1em 1em 2em;
+}
+.main__us--facilities--content--rating {
+  float: right;
+  color: rgba(34, 34, 34, 0.04);
+  font-family: "Archivo";
+  font-size: 7.5em;
+  font-weight: 700;
+}
+.main__us--facilities--content--rating--icon {
+  position: relative;
+  top: 5em;
+  margin-bottom: 6em;
+}
+.main__us--facilities--content--subtitle {
+  color: #FFF;
+  font-family: "Old Standard TT";
+  font-size: 1.9em;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+.main__us--facilities--content--desc {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 80%;
+}
+
+.main__us--facts {
+  padding: 2em 1em;
+}
+.main__us--facts--info {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.main__us--facts--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 3.5em;
+  font-weight: 400;
+  margin: 0.3em auto 0.5em;
+}
+.main__us--facts--element {
+  display: flex;
+  margin-bottom: 3em;
+  justify-content: space-between;
+}
+.main__us--facts--element--data--key {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 3.6em;
+  font-weight: 400;
+}
+.main__us--facts--element--data--value {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1em;
+}
+.main__us--facts--image {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

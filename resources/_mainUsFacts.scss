@@ -1,0 +1,46 @@
+.main__us--facts{
+    padding: 2em 1em;
+
+    &--info{
+        color: #777;
+        font-family: 'Archivo';
+        font-size: .9em;
+        font-weight: 700;
+        letter-spacing: .1em;
+    }
+
+    &--title{
+        color: #222;
+        font-family: 'Old Standard TT';
+        font-size: 3.5em;
+        font-weight: 400;
+        margin: .3em auto .5em;
+    }
+
+    &--element{
+        display: flex;
+        margin-bottom: 3em;
+        justify-content: space-between;
+
+        &--data{
+            &--key{
+                color: #222;
+                font-family: 'Old Standard TT';
+                font-size: 3.6em;
+                font-weight: 400;
+            }
+
+            &--value{
+                color: #777;
+                font-family: 'Roboto';
+                font-size: 1em;
+                font-weight: 400;
+                line-height: 1em;
+            }
+        }
+    }
+
+    &--image{
+        width: 100%;
+    }
+}
