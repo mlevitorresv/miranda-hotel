@@ -175,9 +175,14 @@ body {
   text-align: center;
   padding: 1em;
   box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.02);
-  background-image: url("../media/strongTeam.png");
-  background-size: cover;
-  background-position: top right;
+  position: relative;
+}
+.main__about--team--strong--back {
+  position: absolute;
+  left: 10em;
+}
+.main__about--team--strong--front {
+  position: relative;
 }
 .main__about--team--strong--title {
   color: #111;
@@ -185,6 +190,7 @@ body {
   font-size: 1.9em;
   font-weight: 400;
   line-height: 1.9em;
+  position: relative;
 }
 .main__about--team--strong--desc {
   color: #111;
@@ -384,14 +390,14 @@ body {
   font-weight: 400;
 }
 .main__menu--food {
-  margin: 2em auto;
+  display: flex;
 }
 .main__menu--food--img {
-  width: 100px;
-  height: 100px;
+  width: 6.2em;
+  height: 6.2em;
 }
 .main__menu--food--text {
-  float: left;
+  margin-left: 1em;
 }
 .main__menu--food--text--title {
   color: #222;
@@ -409,6 +415,163 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5em;
+}
+
+.main__slider {
+  padding: 2em 1em;
+}
+.main__slider .swiper {
+  width: 100%;
+  height: 200px;
+}
+.main__slider .swiper-wrapper {
+  width: 100%;
+}
+
+.main__data {
+  padding: 2em 1em;
+  text-align: center;
+  background-color: #222;
+}
+.main__data--info {
+  padding: 1em auto;
+  margin-bottom: 5em;
+}
+.main__data--info--text--number {
+  color: white;
+  font-family: "Roboto";
+  font-size: 3.6em;
+  font-weight: 700;
+}
+.main__data--info--text--number span {
+  font-size: 1em;
+}
+.main__data--info--text--desc {
+  color: #999;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.footer {
+  margin-top: 2em;
+  padding-top: 2em;
+  background: url("../media/footer.png"), rgb(255, 255, 255) 0px 0px/512% 99.174% no-repeat;
+}
+.footer__logo {
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+}
+.footer__logo--H {
+  display: inline-block;
+  background-color: #BEAD8E;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.15);
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 2.5em;
+  font-weight: 700;
+  padding: 0.3em;
+}
+.footer__logo--name {
+  display: inline-block;
+  color: #111;
+  font-family: "Archivo";
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-left: 1em;
+}
+.footer__logo--name--strong {
+  font-weight: 700;
+}
+.footer__desc {
+  margin-left: 1em;
+  margin-top: 1em;
+  color: #777;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+.footer__social {
+  margin-left: 1em;
+  margin-top: 1em;
+  display: flex;
+}
+.footer__social--element {
+  margin: 0.5em;
+}
+.footer__services {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.footer__services--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.footer__services--elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer__services--elements--element {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 3em;
+}
+.footer__contact {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.footer__contact--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+.footer__contact--element {
+  display: flex;
+  margin-bottom: 3em;
+}
+.footer__contact--element--data {
+  margin-left: 1em;
+}
+.footer__contact--element--data--key {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.footer__contact--element--data--value {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.footer__end {
+  background-color: #F8F8F8;
+  padding: 1em;
+}
+.footer__end--copy {
+  color: #222;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.footer__end--terms {
+  color: #222;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
