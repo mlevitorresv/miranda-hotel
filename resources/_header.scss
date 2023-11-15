@@ -1,5 +1,7 @@
 .header{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 1em;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.29);
 
@@ -10,14 +12,21 @@
             text-decoration: none;
             color: black;
             margin-left: 1em;
+            display: inline-flex;
+            align-items: center;
 
             &--H{
-                display: inline-block;
-                font-size: 1em;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 1.5em;
+                margin-right: .5em;
+                height: 1.5em;
+                box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.212);
+                font-size: 1.5em;
             }
     
             &--name{
-                display: inline-block;
                 font-size: 1em;
             }
         }
