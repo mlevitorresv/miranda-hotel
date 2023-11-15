@@ -1312,6 +1312,7 @@ body {
 .main__contact--intro {
   padding: 2em 1em;
   background-color: #333;
+  margin-bottom: 2em;
 }
 .main__contact--intro--slogan {
   color: #FFF;
@@ -1349,7 +1350,6 @@ body {
 }
 .main__contact--forms--element {
   display: flex;
-  margin-bottom: 2em;
 }
 .main__contact--forms--element--icon {
   align-self: flex-start;
@@ -1381,6 +1381,41 @@ body {
   position: relative;
   right: -0.4em;
   bottom: 0.3em;
+}
+
+.main__contact--map {
+  width: calc(100% - 2em);
+  margin: 1em;
+  height: auto;
+  border: 0;
+}
+
+.main__contact--data {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+  justify-content: space-around;
+}
+.main__contact--data--element {
+  margin-bottom: 1em;
+  border: none;
+  background-color: #F8F8F8;
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 1.5em;
+}
+.main__contact--data--send {
+  background-color: #BEAD8E;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin: 0 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
