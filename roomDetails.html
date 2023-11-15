@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Room Details</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger" />
+            <a href="#" class="header__left--logo">
+                <h1 class="header__left--logo--H">H</h1>
+                <h1 class="header__left--logo--name">HotelMiranda</h1>
+            </a>
+        </div>
+
+        <div class="header__right">
+            <img src="./media/personIcon.png" alt="person icon" class="header__right--person" />
+            <img src="./media/lensIcon.png" alt="lens icon"  class="header__right--lens"/>
+        </div>
+
+        <div class="header__menu">
+            <ul class="header__menu--items">
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--about">About Us</li></a>
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--rooms">Rooms</li></a>
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--offers">Offers</li></a>
+                <a href="" class="header__menu--items--link"><li class="header__menu--items--contact">Contact</li></a>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="main__details">
+        <div class="main__details--intro">
+            <p class="main__details--intro--slogan">THE ULTIMATE LUXURY</p>
+            <h1 class="main__details--intro--title">ULTIMATE ROOM</h1>
+            <p class="main__details--intro--divider">Home | <span class="main__details--intro--divider--gold">Room Details</span></p>
+        </div>       
+        <div class="main__details--room">
+            <p class="main__details--room--info">DOUBLE BED</p>
+            <h1 class="main__details--room--title">Luxury Double Bed</h1>
+            <p class="main__details--room--price"><span class="main__details--room--price--number">$345</span><span class="main__details--room--price--night">/Night</span></p>
+            <img src="./media/luxury.jpg" alt="a luxury room" class="main__details--room--image">
+            
+            <div class="main__details--room--availability">
+                <p class="main__details--room--availability--subtitle">
+                    Check availability
+                </p>
+                <form class="main__details--room--availability--form">
+                    <label for="arrivalDate" class="main__details--room--availability--form--text">Arrival Date</label>
+                    <input type="text" name="arrivalDate" id="arrivalDate" class="main__details--room--availability--form--input" placeholder=" 24th march 2020" />
+                    <label for="leDepartureDate"  class="main__details--room--availability--form--text">LeDeparture Date</label>
+                    <input type="text" name="leDepartureDate" id="leDepartureDate"  class="main__details--room--availability--form--input"  placeholder="30th march 2020"/>
+                    <button type="submit" class="main__details--room--availability--form--bt">CHECK AVAILABILITY</button>
+                </form>
+            </div>
+            <p class="main__details--room--desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </p>
+        </div>
+        <div class="main__details--room--amenities">
+            <h3 class="main__details--room--amenities--title">Amenities</h3>
+            <hr class="main__details--room--amenities--separator" />
+            <div class="main__details--room--amenities--elements">
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/airConditioner.svg" alt="air conditioner svg" class="main__details--room--amenities--elements--element--img">
+                    Air conditioner
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/smallBreakfast.svg" alt="breakfast svg" class="main__details--room--amenities--elements--element--img">
+                    Breakfast
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/cleaning.svg" alt="cleaning svg" class="main__details--room--amenities--elements--element--img">
+                    Cleaning
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/grocery.svg" alt="grocery svg" class="main__details--room--amenities--elements--element--img">
+                    Grocery
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/shopNear.svg" alt="shop svg" class="main__details--room--amenities--elements--element--img">
+                    Shop Near
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/onlineSupport.svg" alt="online support svg" class="main__details--room--amenities--elements--element--img">
+                    24/7 Online Support
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/smartSecurity.svg" alt="Smart Security" class="main__details--room--amenities--elements--element--img">
+                    Smart Security
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/wifi.svg" alt="wifi svg" class="main__details--room--amenities--elements--element--img">
+                    High speed WiFi
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/kitchen.svg" alt="kitchen svg" class="main__details--room--amenities--elements--element--img">
+                    Kitchen
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/shower.svg" alt="shower svg" class="main__details--room--amenities--elements--element--img">
+                    Shower
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/singleBed.svg" alt="a bed svg" class="main__details--room--amenities--elements--element--img">
+                    Single bed
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/towels.svg" alt="towel svg" class="main__details--room--amenities--elements--element--img">
+                    Towels
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/strongLocker.svg" alt="a key svg" class="main__details--room--amenities--elements--element--img">
+                    Strong Locker
+                </p>
+                <p class="main__details--room--amenities--elements--element">
+                    <img src="./media/expertTeam.svg" alt="a person with laptop svg" class="main__details--room--amenities--elements--element--img">
+                    Expert Team
+                </p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <p class="footer__logo--H">H</p>
+            <p class="footer__logo--name"><span class="footer__logo--name--strong">HOTEL</span><br />MIRANDA</p>
+        </div>
+        <p class="footer__desc">
+            Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
+        </p>
+        <div class="footer__social">
+            <div class="footer__social--element">
+                <img src="./media/facebook.png" alt="facebook  icon" class="footer__social--element--icon">
+            </div>
+            <div class="footer__social--element">
+                <img src="./media/twitter.png" alt="twitter icon" class="footer__social--element--icon">
+            </div>
+            <div class="footer__social--element">
+                <img src="./media/behance.png" alt="behance icon" class="footer__social--element--icon">
+            </div>
+            <div class="footer__social--element">
+                <img src="./media/linkedin.png" alt="linkedin icon" class="footer__social--element--icon">
+            </div>
+            <div class="footer__social--element">
+                <img src="./media/yt.png" alt="youtube icon" class="footer__social--element--icon">
+            </div>
+        </div>
+        <div class="footer__services">
+            <h4 class="footer__services--title">Services.</h4>
+            <div class="footer__services--elements">
+                <p class="footer__services--elements--element">+ Resturent & Bar</p>
+                <p class="footer__services--elements--element">+ Swimming Pool</p>
+                <p class="footer__services--elements--element">+ Wellness & Spa</p>
+                <p class="footer__services--elements--element">+ Restaurant</p>
+                <p class="footer__services--elements--element">+ Conference Room</p>
+                <p class="footer__services--elements--element">+ Coctail Party House</p>
+                <p class="footer__services--elements--element">+ Gaming Zone</p>
+                <p class="footer__services--elements--element">+ Marrige Party</p>
+                <p class="footer__services--elements--element">+ Party Planning</p>
+                <p class="footer__services--elements--element">+ Tour Consultancy</p>
+            </div>
+        </div>
+        <div class="footer__contact">
+            <h4 class="footer__contact--title">Contact Us.</h4>
+            <div class="footer__contact--element">
+                <img src="./media/footerPhone.png" alt="phone icon" class="footer__contact--element-icon">
+                <p class="footer__contact--element--data">
+                    <span class="footer__contact--element--data--key"> Phone Number</span>
+                    <br />
+                    <span class="footer__contact--element--data--value">+34 620 46 82 40</span>
+                </p>
+            </div>
+            <div class="footer__contact--element">
+                <img src="./media/email.png" alt="email icon" class="footer__contact--element-icon">
+                <p class="footer__contact--element--data">
+                    <span class="footer__contact--element--data--key">Email Address</span>
+                    <br />
+                    <span class="footer__contact--element--data--value">levitorres66@gmail.com</span>
+                </p>
+            </div>
+            <div class="footer__contact--element">
+                <img src="./media/location.png" alt="location icon" class="footer__contact--element-icon">
+                <p class="footer__contact--element--data">
+                    <span class="footer__contact--element--data--key"> Office Address</span>
+                    <br />
+                    <span class="footer__contact--element--data--value">Princesa 31, planta 2 (28008 Madrid)</span>
+                </p>
+            </div>
+        </div>
+        <div class="footer__end">
+            <p class="footer__end--copy">
+                Copyright By Manuel Leví Torres Vicente - 2023
+            </p>
+            <p class="footer__end--terms">
+                Terms of use | Privacy Environmental policy
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
