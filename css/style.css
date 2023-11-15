@@ -1309,4 +1309,78 @@ body {
   margin-left: 2em;
 }
 
+.main__contact--intro {
+  padding: 2em 1em;
+  background-color: #333;
+}
+.main__contact--intro--slogan {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+}
+.main__contact--intro--title {
+  color: #FFF;
+  font-family: "Old Standard TT";
+  font-size: 3.5em;
+  font-weight: 400;
+}
+.main__contact--intro--divider {
+  background-color: white;
+  padding: 0.5em;
+  width: fit-content;
+  color: #222;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+  top: 2em;
+  right: -14em;
+}
+.main__contact--intro--divider--gold {
+  color: #BEAD8E;
+}
+
+.main__contact--forms {
+  padding: 2em 1em;
+}
+.main__contact--forms--element {
+  display: flex;
+  margin-bottom: 2em;
+}
+.main__contact--forms--element--icon {
+  align-self: flex-start;
+}
+.main__contact--forms--element--data {
+  margin-left: 1em;
+  position: absolute;
+  left: 5em;
+}
+.main__contact--forms--element--data--key {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+.main__contact--forms--element--data--value {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.main__contact--forms--element--number {
+  color: #F8F8F8;
+  font-family: "Roboto";
+  font-size: 200px;
+  font-weight: 700;
+  position: relative;
+  right: -0.4em;
+  bottom: 0.3em;
+}
+
 /*# sourceMappingURL=style.css.map */
