@@ -838,6 +838,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5em;
+  margin-bottom: 1em;
 }
 .main__rooms--elements--element--price {
   display: inline;
@@ -997,6 +998,131 @@ body {
   font-size: 0.9em;
   font-weight: 500;
   margin-bottom: 1em;
+}
+
+.main__details--room--person {
+  padding: 2em 1em;
+  text-align: center;
+}
+.main__details--room--person--face {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.main__details--room--person--face--img {
+  width: 100%;
+  height: auto;
+}
+.main__details--room--person--tick {
+  position: relative;
+  bottom: 12em;
+  left: 4.5em;
+}
+.main__details--room--person--name {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.9em;
+  font-weight: 400;
+}
+.main__details--room--person--occupation {
+  color: #BDAC8D;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0.5em 0 1.5em;
+}
+.main__details--room--person--desc {
+  padding: 1em 1em;
+  color: #777;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.main__details--room--cancellation {
+  padding: 2em 1em;
+}
+.main__details--room--cancellation--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.9em;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+.main__details--room--cancellation--separator {
+  margin-bottom: 2em;
+}
+.main__details--room--cancellation--desc {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.main__details--room--related {
+  padding: 2em 1em;
+}
+.main__details--room--related--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.9em;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+.main__details--room--related--element {
+  text-align: center;
+  margin-bottom: 3em;
+}
+.main__details--room--related--element--image {
+  width: 100%;
+}
+.main__details--room--related--element--icons {
+  position: relative;
+  bottom: 1em;
+  background: white;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5em;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+}
+.main__details--room--related--element--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+}
+.main__details--room--related--element--desc {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+.main__details--room--related--element--price {
+  display: inline;
+  color: #BEAD8E;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+}
+.main__details--room--related--element--book {
+  display: inline;
+  color: #BDBDBD;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  margin-left: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
