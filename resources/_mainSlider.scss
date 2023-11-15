@@ -1,11 +1,16 @@
-.main__slider{
+.main__slider {
     padding: 2em 1em;
-    .swiper {
-        width: 100%;
-        height: 200px;
-
-        &-wrapper{
+  
+    &--swiper {
+      width: 100%;
+      height: 200px;
+  
+      &--wrapper {
+        &--slide {
+          &--img {
             width: 100%;
+          }
         }
+      }
     }
-}
+  }

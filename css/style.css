@@ -255,11 +255,11 @@ body {
   font-size: 3.5em;
   font-weight: 400;
 }
-.main__about--rooms .swiper {
+.main__about--rooms--swiper {
   width: 100%;
   height: 200px;
 }
-.main__about--rooms .swiper-wrapper {
+.main__about--rooms--swiper--wrapper--slide--img {
   width: 100%;
 }
 .main__about--rooms--duplex {
@@ -430,11 +430,11 @@ body {
 .main__slider {
   padding: 2em 1em;
 }
-.main__slider .swiper {
+.main__slider--swiper {
   width: 100%;
   height: 200px;
 }
-.main__slider .swiper-wrapper {
+.main__slider--swiper--wrapper--slide--img {
   width: 100%;
 }
 
