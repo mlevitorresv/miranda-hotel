@@ -1,0 +1,92 @@
+.main__offers--elements{
+    padding: 2em 1em;
+
+    &--room{
+        margin-bottom: 2em;        
+        box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.10);
+
+        &--image{
+            width: 100%;
+        }
+
+        &--prices{
+            width: fit-content;
+            position: relative;
+            bottom: 5em;
+            left: 13em;
+
+            &--price-old{
+            color: #BEAD8E;
+            font-family: 'Archivo';
+            font-size: 1.4em;
+            font-weight: 700;
+            text-decoration-line: line-through;
+
+                &--night{
+                    font-size: .5em;
+                    text-decoration-line: line-through;
+                }
+            }
+
+            &--price-new{
+                color: #DE5777;
+                font-family: 'Archivo';
+                font-size: 1.9em;
+                font-weight: 700;
+
+                &--night{
+                    font-size: .6em;
+                }
+            }
+        }
+
+        &--data{
+            padding: 0 1em;
+
+            &--info{
+                color: #777;
+                font-family: 'Archivo';
+                font-size: .9em;
+                font-weight: 700;
+            }
+    
+            &--title{
+                color: #222;
+                font-family: 'Old Standard TT';
+                font-size: 2.5em;
+                font-weight: 400;
+            }
+
+            &--desc{
+                margin: 1em 0;
+                color: #777;
+                font-family: 'Roboto';
+                font-size: .9em;
+                font-weight: 400;
+                line-height: 1.5em;
+            }
+
+            &--amenities{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+                &--element{
+                    margin-top: 1em;
+                    color: #777;
+                    font-family: 'Roboto';
+                    font-size: .9em;
+                    font-weight: 500;
+                }
+            }
+
+            &--bt{
+                margin: 2em auto;
+                background-color: #BEAD8E;
+                padding: 1.5em 2em;
+                width: 60%;
+                border: none;
+                color: white;
+            }
+        }        
+    }
+}

@@ -1125,4 +1125,188 @@ body {
   margin-left: 2em;
 }
 
+.main__offers--intro {
+  padding: 2em 1em;
+  background-color: #333;
+}
+.main__offers--intro--slogan {
+  color: #FFF;
+  font-family: "Archivo";
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+}
+.main__offers--intro--title {
+  color: #FFF;
+  font-family: "Old Standard TT";
+  font-size: 3.5em;
+  font-weight: 400;
+}
+.main__offers--intro--divider {
+  background-color: white;
+  padding: 0.5em;
+  width: fit-content;
+  color: #222;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+  top: 2em;
+  right: -10em;
+}
+.main__offers--intro--divider--gold {
+  color: #BEAD8E;
+}
+
+.main__offers--elements {
+  padding: 2em 1em;
+}
+.main__offers--elements--room {
+  margin-bottom: 2em;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+}
+.main__offers--elements--room--image {
+  width: 100%;
+}
+.main__offers--elements--room--prices {
+  width: fit-content;
+  position: relative;
+  bottom: 5em;
+  left: 13em;
+}
+.main__offers--elements--room--prices--price-old {
+  color: #BEAD8E;
+  font-family: "Archivo";
+  font-size: 1.4em;
+  font-weight: 700;
+  text-decoration-line: line-through;
+}
+.main__offers--elements--room--prices--price-old--night {
+  font-size: 0.5em;
+  text-decoration-line: line-through;
+}
+.main__offers--elements--room--prices--price-new {
+  color: #DE5777;
+  font-family: "Archivo";
+  font-size: 1.9em;
+  font-weight: 700;
+}
+.main__offers--elements--room--prices--price-new--night {
+  font-size: 0.6em;
+}
+.main__offers--elements--room--data {
+  padding: 0 1em;
+}
+.main__offers--elements--room--data--info {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.main__offers--elements--room--data--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.main__offers--elements--room--data--desc {
+  margin: 1em 0;
+  color: #777;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.main__offers--elements--room--data--amenities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main__offers--elements--room--data--amenities--element {
+  margin-top: 1em;
+  color: #777;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.main__offers--elements--room--data--bt {
+  margin: 2em auto;
+  background-color: #BEAD8E;
+  padding: 1.5em 2em;
+  width: 60%;
+  border: none;
+  color: white;
+}
+
+.main__offers--popular {
+  padding: 2em 1em;
+  background-color: #222;
+  text-align: center;
+}
+.main__offers--popular--info {
+  color: #BDAC8D;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+.main__offers--popular--title {
+  color: #FFF;
+  font-family: "Old Standard TT";
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 3em;
+}
+.main__offers--popular--room {
+  text-align: center;
+  margin-bottom: 3em;
+  background-color: white;
+  padding-bottom: 2em;
+}
+.main__offers--popular--room--image {
+  width: 100%;
+}
+.main__offers--popular--room--icons {
+  position: relative;
+  bottom: 1em;
+  background: white;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5em;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+}
+.main__offers--popular--room--title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+}
+.main__offers--popular--room--desc {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+.main__offers--popular--room--price {
+  display: inline;
+  color: #BEAD8E;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+}
+.main__offers--popular--room--book {
+  display: inline;
+  color: #BDBDBD;
+  font-family: "Archivo";
+  font-size: 1em;
+  font-weight: 700;
+  margin-left: 2em;
+}
+
 /*# sourceMappingURL=style.css.map */
