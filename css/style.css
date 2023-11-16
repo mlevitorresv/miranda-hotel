@@ -9,24 +9,24 @@ body {
   min-width: 320px;
 }
 
-.header {
+.header__all {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1em;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.29);
 }
-.header__left {
+.header__all--left {
   display: inline-block;
 }
-.header__left--logo {
+.header__all--left--logo {
   text-decoration: none;
   color: black;
   margin-left: 1em;
   display: inline-flex;
   align-items: center;
 }
-.header__left--logo--H {
+.header__all--left--logo--H {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -36,16 +36,16 @@ body {
   box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.212);
   font-size: 1.5em;
 }
-.header__left--logo--name {
+.header__all--left--logo--name {
   font-size: 1em;
 }
-.header__right {
+.header__all--right {
   float: right;
 }
-.header__right--person {
-  margin-right: 1em;
+.header__all--right--lens {
+  margin-left: 1em;
 }
-.header__menu {
+.header__all--menu {
   position: absolute;
   z-index: 99;
   background-color: #fff;
@@ -58,10 +58,10 @@ body {
   top: 4em;
   display: none;
 }
-.header__menu--items {
+.header__all--menu--items {
   list-style-type: none;
 }
-.header__menu--items--link {
+.header__all--menu--items--link {
   text-decoration: none;
   color: black;
   font-family: "Archivo";
@@ -70,6 +70,31 @@ body {
   margin: 1em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .header {
+    width: 100%;
+    background-color: #222;
+  }
+  .header__all {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 2em;
+  }
+  .header__all--left--burger {
+    display: none;
+  }
+  .header__all--menu {
+    display: block;
+    position: initial;
+    flex-direction: row;
+    width: fit-content;
+  }
+  .header__all--menu--items--link {
+    display: inline-block;
+  }
+}
 .main__info {
   background-color: #333;
   color: white;
@@ -498,12 +523,12 @@ body {
   padding-top: 2em;
   background: url("../media/footer.png"), rgb(255, 255, 255) 0px 0px/512% 99.174% no-repeat;
 }
-.footer__logo {
+.footer__us--logo {
   margin-left: 1em;
   display: flex;
   align-items: center;
 }
-.footer__logo--H {
+.footer__us--logo--H {
   display: inline-block;
   background-color: #BEAD8E;
   box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.15);
@@ -513,7 +538,7 @@ body {
   font-weight: 700;
   padding: 0.3em;
 }
-.footer__logo--name {
+.footer__us--logo--name {
   display: inline-block;
   color: #111;
   font-family: "Archivo";
@@ -521,10 +546,10 @@ body {
   font-weight: 400;
   margin-left: 1em;
 }
-.footer__logo--name--strong {
+.footer__us--logo--name--strong {
   font-weight: 700;
 }
-.footer__desc {
+.footer__us--desc {
   margin-left: 1em;
   margin-top: 1em;
   color: #777;
@@ -533,13 +558,21 @@ body {
   font-weight: 400;
   line-height: 1.6em;
 }
-.footer__social {
+.footer__us--social {
   margin-left: 1em;
   margin-top: 1em;
   display: flex;
 }
-.footer__social--element {
+.footer__us--social--element {
   margin: 0.5em;
+  padding: 0.5em;
+  background-color: white;
+}
+.footer__us--social--element:hover {
+  background-color: #BEAD8E;
+}
+.footer__us--social--element:hover--icon {
+  fill: white;
 }
 .footer__services {
   margin-left: 1em;
@@ -596,6 +629,7 @@ body {
   font-size: 0.9em;
   font-weight: 400;
 }
+
 .footer__end {
   background-color: #F8F8F8;
   padding: 1em;
@@ -614,6 +648,30 @@ body {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 1000px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__us {
+    width: 17em;
+  }
+  .footer__services {
+    margin-left: 7em;
+  }
+  .footer__services--elements--element {
+    margin-right: 7em;
+  }
+  .footer__end {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+  }
+  .footer__end--copy {
+    margin-bottom: 0em;
+  }
+}
 .main__us--intro {
   padding: 2em 1em;
   background-color: #333;

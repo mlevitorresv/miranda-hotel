@@ -12,26 +12,28 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__left">
-            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger"  id="burgerIcon"/>
-            <a href="./index.html" class="header__left--logo">
-                <h1 class="header__left--logo--H">H</h1>
-                <h1 class="header__left--logo--name">Hotel<br />Miranda</h1>
-            </a>
-        </div>
+        <div class="header__all">
+            <div class="header__all--left">
+                <img src="./media/burgerIcon.png" alt="menu icon" class="header__all--left--burger" id="burgerIcon"/>
+                <a href="./index.html" class="header__all--left--logo">
+                    <h1 class="header__all--left--logo--H">H</h1>
+                    <h1 class="header__all--left--logo--name">Hotel<br />Miranda</h1>
+                </a>
+            </div>
 
-        <div class="header__right">
-            <img src="./media/personIcon.png" alt="person icon" class="header__right--person" />
-            <img src="./media/lensIcon.png" alt="lens icon"  class="header__right--lens"/>
-        </div>
+            <div class="header__all--menu" id="menu">
+                <ul class="header__all--menu--items">
+                    <a href="./about.html" class="header__all--menu--items--link"><li class="header__all--menu--items--about">About Us</li></a>
+                    <a href="./rooms.html" class="header__all--menu--items--link"><li class="header__all--menu--items--rooms">Rooms</li></a>
+                    <a href="./offers.html" class="header__all--menu--items--link"><li class="header__all--menu--items--offers">Offers</li></a>
+                    <a href="./contact.html" class="header__all--menu--items--link"><li class="header__all--menu--items--contact">Contact</li></a>
+                </ul>
+            </div>
 
-        <div class="header__menu" id="menu">
-            <ul class="header__menu--items">
-                <a href="./about.html" class="header__menu--items--link"><li class="header__menu--items--about">About Us</li></a>
-                <a href="./rooms.html" class="header__menu--items--link"><li class="header__menu--items--rooms">Rooms</li></a>
-                <a href="./offers.html" class="header__menu--items--link"><li class="header__menu--items--offers">Offers</li></a>
-                <a href="./contact.html" class="header__menu--items--link"><li class="header__menu--items--contact">Contact</li></a>
-            </ul>
+            <div class="header__all--right">
+                <img src="./media/personIcon.png" alt="person icon" class="header__all--right--person" />
+                <img src="./media/lensIcon.png" alt="lens icon"  class="header__all--right--lens"/>
+            </div>
         </div>
     </header>
 
@@ -177,30 +179,35 @@
 
 
     <footer class="footer">
-        <div class="footer__logo">
-            <p class="footer__logo--H">H</p>
-            <p class="footer__logo--name"><span class="footer__logo--name--strong">HOTEL</span><br />MIRANDA</p>
+        <div class="footer__us">
+
+            <div class="footer__us--logo">
+                <p class="footer__us--logo--H">H</p>
+                <p class="footer__us--logo--name"><span class="footer__us--logo--name--strong">HOTEL</span><br />MIRANDA</p>
+            </div>
+            <p class="footer__us--desc">
+                Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
+            </p>
+            <div class="footer__us--social">
+                <div class="footer__us--social--element">
+                    <img src="./media/facebook.svg" alt="facebook  icon" class="footer__us--social--element--icon">
+                </div>
+                <div class="footer__us--social--element">
+                    <img src="./media/twitter.svg" alt="twitter icon" class="footer__us--social--element--icon">
+                </div>
+                <div class="footer__us--social--element">
+                    <img src="./media/behance.svg" alt="behance icon" class="footer__us--social--element--icon">
+                </div>
+                <div class="footer__us--social--element">
+                    <img src="./media/linkedin.svg" alt="linkedin icon" class="footer__us--social--element--icon">
+                </div>
+                <div class="footer__us--social--element">
+                    <img src="./media/yt.svg" alt="youtube icon" class="footer__us--social--element--icon">
+                </div>
+            </div>
+
         </div>
-        <p class="footer__desc">
-            Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.
-        </p>
-        <div class="footer__social">
-            <div class="footer__social--element">
-                <img src="./media/facebook.png" alt="facebook  icon" class="footer__social--element--icon">
-            </div>
-            <div class="footer__social--element">
-                <img src="./media/twitter.png" alt="twitter icon" class="footer__social--element--icon">
-            </div>
-            <div class="footer__social--element">
-                <img src="./media/behance.png" alt="behance icon" class="footer__social--element--icon">
-            </div>
-            <div class="footer__social--element">
-                <img src="./media/linkedin.png" alt="linkedin icon" class="footer__social--element--icon">
-            </div>
-            <div class="footer__social--element">
-                <img src="./media/yt.png" alt="youtube icon" class="footer__social--element--icon">
-            </div>
-        </div>
+
         <div class="footer__services">
             <h4 class="footer__services--title">Services.</h4>
             <div class="footer__services--elements">
@@ -243,16 +250,17 @@
                 </p>
             </div>
         </div>
-        <div class="footer__end">
-            <p class="footer__end--copy">
-                Copyright By Manuel Leví Torres Vicente - 2023
-            </p>
-            <p class="footer__end--terms">
-                Terms of use | Privacy Environmental policy
-            </p>
-        </div>
     </footer>
+    <div class="footer__end">
+        <p class="footer__end--copy">
+            Copyright By Manuel Leví Torres Vicente - 2023
+        </p>
+        <p class="footer__end--terms">
+            Terms of use | Privacy Environmental policy
+        </p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
