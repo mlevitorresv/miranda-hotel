@@ -46,9 +46,9 @@
         <div class="main__availability">
             <form class="main__availability--form">
                 <label for="arrivalDate" class="main__availability--form-text">Arrival Date</label>
-                <input type="text" name="arrivalDate" id="arrivalDate" class="main__availability--form-input" placeholder=" 24th march 2020" />
+                <input type="date" name="arrivalDate" id="arrivalDate" class="main__availability--form-input" />
                 <label for="leDepartureDate"  class="main__availability--form-text">LeDeparture Date</label>
-                <input type="text" name="leDepartureDate" id="leDepartureDate"  class="main__availability--form-input"  placeholder="30th march 2020"/>
+                <input type="date" name="leDepartureDate" id="leDepartureDate"  class="main__availability--form-input"  />
                 <button type="submit" class="main__availability--form-bt">CHECK AVAILABILITY</button>
             </form>
         </div>
@@ -105,10 +105,10 @@
                           <div class="swiper-slide main__slider--swiper--wrapper--slide"><img src="./media/restaurant.jpg" alt="restaurant of hotel" class="slide main__slider--swiper--wrapper--slide--img" /></div>
                           <div class="swiper-slide main__slider--swiper--wrapper--slide"><img src="./media/room.jpg" alt="room of hotel" class="slide main__slider--swiper--wrapper--slide--img" /></div>
                         </div>
-            
-                        
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+
+                        <div class="swiper-button-prev main__slider--swiper--wrapper--button"></div>
+                        <div class="swiper-button-next main__slider--swiper--wrapper--button"></div>
+                    </div>
                 </div>
                 <div class="main__about--rooms--duplex">
                     <h4 class="main__about--rooms--duplex--title">Minimal Duplex Room</h4>
@@ -128,6 +128,19 @@
         <div class="main__facilities">
             <p class="main__facilities--info">FACILITIES</p>
             <h1 class="main__facilities--title">Core Features</h1>
+            <div class="main__slider">
+                <div class="swiper main__slider--swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper main__slider--swiper--wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide main__slider--swiper--wrapper--slide"><img src="./media/gym.jpg" alt="gym of hotel" class="slide main__slider--swiper--wrapper--slide--img" /></div>
+                      <div class="swiper-slide main__slider--swiper--wrapper--slide"><img src="./media/restaurant.jpg" alt="restaurant of hotel" class="slide main__slider--swiper--wrapper--slide--img" /></div>
+                      <div class="swiper-slide main__slider--swiper--wrapper--slide"><img src="./media/room.jpg" alt="room of hotel" class="slide main__slider--swiper--wrapper--slide--img" /></div>
+                    </div>
+        
+                    <div class="swiper-pagination main__slider--swiper--pagination"></div>
+                </div>
+            </div>
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">

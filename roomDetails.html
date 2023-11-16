@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="./css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Room Details</title>
 </head>
 <body>
@@ -147,7 +151,20 @@
             <hr class="main__details--room--cancellation--separator" />
 
             <div class="main__details--room--related--element">
-                <img src="./media/room.jpg" alt="a room of hotel" class="main__details--room--related--element--image">
+                <div class="main__details--room--related--element--slider">
+                    <div class="swiper main__details--room--related--element--slider--swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper main__details--room--related--element--slider--swiper--wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide main__details--room--related--element--slider--swiper--wrapper--slide"><img src="./media/gym.jpg" alt="gym of hotel" class="slide main__details--room--related--element--slider--swiper--wrapper--slide--img" /></div>
+                          <div class="swiper-slide main__details--room--related--element--slider--swiper--wrapper--slide"><img src="./media/restaurant.jpg" alt="restaurant of hotel" class="slide main__details--room--related--element--slider--swiper--wrapper--slide--img" /></div>
+                          <div class="swiper-slide main__details--room--related--element--slider--swiper--wrapper--slide"><img src="./media/room.jpg" alt="room of hotel" class="slide main__details--room--related--element--slider--swiper--wrapper--slide--img" /></div>
+                        </div>
+            
+                        <div class="swiper-button-prev main__details--room--related--element--slider--swiper--button--prev"></div>
+                        <div class="swiper-button-next main__details--room--related--element--slider--swiper--button--next"></div>
+                    </div>
+                </div>
                 <div class="main__details--room--related--element--icons">
                     <img src="./media/iconBed.png" alt="a bed icon" />
                     <img src="./media/iconWifi.png" alt="a wifi icon" />
@@ -242,6 +259,7 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>

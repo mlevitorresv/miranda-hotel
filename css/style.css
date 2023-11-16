@@ -55,7 +55,8 @@ body {
   align-items: start;
   padding-left: 1.3em;
   justify-content: space-around;
-  top: 2em;
+  top: 4em;
+  display: none;
 }
 .header__menu--items {
   list-style-type: none;
@@ -389,6 +390,9 @@ body {
   line-height: 1.5em;
   width: 80%;
 }
+.main__facilities .swiper .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
+}
 
 .main__menu {
   padding: 2em 1em;
@@ -444,6 +448,23 @@ body {
 }
 .main__slider--swiper--wrapper--slide--img {
   width: 100%;
+}
+.main__slider--swiper--wrapper--button {
+  background-color: white;
+}
+.main__slider--swiper--wrapper--button::after, .main__slider--swiper--wrapper--button::before {
+  color: black;
+  font-size: 1em;
+}
+.main__slider--swiper--wrapper--button:hover {
+  background-color: #BDAC8D;
+}
+.main__slider--swiper--wrapper--button:hover::after, .main__slider--swiper--wrapper--button:hover::before {
+  color: white;
+  font-size: 1em;
+}
+.main__slider--swiper--pagination .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
 }
 
 .main__data {
@@ -747,6 +768,9 @@ body {
   font-weight: 400;
   line-height: 1.5em;
   width: 80%;
+}
+.main__us--facilities .swiper .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
 }
 
 .main__us--facts {
@@ -1103,12 +1127,20 @@ body {
   text-align: center;
   margin-bottom: 3em;
 }
-.main__details--room--related--element--image {
+.main__details--room--related--element--slider {
+  padding: 2em 1em;
+}
+.main__details--room--related--element--slider--swiper {
+  width: 100%;
+  height: 200px;
+}
+.main__details--room--related--element--slider--swiper--wrapper--slide--img {
   width: 100%;
 }
 .main__details--room--related--element--icons {
   position: relative;
-  bottom: 1em;
+  bottom: 3em;
+  z-index: 10;
   background: white;
   width: fit-content;
   margin: auto;
@@ -1286,12 +1318,20 @@ body {
   background-color: white;
   padding-bottom: 2em;
 }
+.main__offers--popular--room--slider--swiper {
+  width: 100%;
+  height: 200px;
+}
+.main__offers--popular--room--slider--swiper--wrapper--slide--img {
+  width: 100%;
+}
 .main__offers--popular--room--image {
   width: 100%;
 }
 .main__offers--popular--room--icons {
   position: relative;
   bottom: 1em;
+  z-index: 10;
   background: white;
   width: fit-content;
   margin: auto;

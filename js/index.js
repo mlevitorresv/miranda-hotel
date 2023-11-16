@@ -1,6 +1,6 @@
 const burgerButton = document.getElementById('burgerIcon');
 const burgerMenu = document.getElementById('menu');
-const isOpen = false;
+let isOpen = false;
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
