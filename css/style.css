@@ -451,17 +451,18 @@ body {
 }
 .main__slider--swiper--wrapper--button {
   background-color: white;
+  width: 30px !important;
+  height: 30px !important;
 }
 .main__slider--swiper--wrapper--button::after, .main__slider--swiper--wrapper--button::before {
   color: black;
-  font-size: 1em;
+  font-size: 1em !important;
 }
 .main__slider--swiper--wrapper--button:hover {
   background-color: #BDAC8D;
 }
 .main__slider--swiper--wrapper--button:hover::after, .main__slider--swiper--wrapper--button:hover::before {
   color: white;
-  font-size: 1em;
 }
 .main__slider--swiper--pagination .swiper-pagination-bullet-active {
   background-color: #BEAD8E;
@@ -1137,6 +1138,21 @@ body {
 .main__details--room--related--element--slider--swiper--wrapper--slide--img {
   width: 100%;
 }
+.main__details--room--related--element--slider--swiper--button {
+  background-color: white;
+  width: 30px !important;
+  height: 30px !important;
+}
+.main__details--room--related--element--slider--swiper--button::after, .main__details--room--related--element--slider--swiper--button::before {
+  color: black;
+  font-size: 1em !important;
+}
+.main__details--room--related--element--slider--swiper--button:hover {
+  background-color: #BDAC8D;
+}
+.main__details--room--related--element--slider--swiper--button:hover::after, .main__details--room--related--element--slider--swiper--button:hover::before {
+  color: white;
+}
 .main__details--room--related--element--icons {
   position: relative;
   bottom: 3em;
@@ -1324,6 +1340,21 @@ body {
 }
 .main__offers--popular--room--slider--swiper--wrapper--slide--img {
   width: 100%;
+}
+.main__offers--popular--room--slider--swiper--button {
+  background-color: white;
+  width: 30px !important;
+  height: 30px !important;
+}
+.main__offers--popular--room--slider--swiper--button::after, .main__offers--popular--room--slider--swiper--button::before {
+  color: black;
+  font-size: 1em !important;
+}
+.main__offers--popular--room--slider--swiper--button:hover {
+  background-color: #BDAC8D;
+}
+.main__offers--popular--room--slider--swiper--button:hover::after, .main__offers--popular--room--slider--swiper--button:hover::before {
+  color: white;
 }
 .main__offers--popular--room--image {
   width: 100%;

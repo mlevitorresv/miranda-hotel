@@ -14,11 +14,13 @@
 
       &--button{
         background-color: white;
+        width: 30px !important;
+        height: 30px !important;
 
         &::after,
         &::before{
           color: black;
-          font-size: 1em;
+          font-size: 1em !important;
         }
 
         
@@ -28,7 +30,6 @@
           &::after,
           &::before{
             color: white;
-            font-size: 1em;
           }
         }
       }

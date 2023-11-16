@@ -37,6 +37,27 @@
                   }
                 }
               }
+              &--button{
+                background-color: white;
+                width: 30px !important;
+                height: 30px !important;
+        
+                &::after,
+                &::before{
+                  color: black;
+                  font-size: 1em !important;
+                }
+        
+                
+                &:hover{
+                  background-color: #BDAC8D;
+        
+                  &::after,
+                  &::before{
+                    color: white;
+                  }
+                }
+              }
             }
           }
           
