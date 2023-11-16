@@ -1,6 +1,10 @@
+const burgerButton = document.getElementById('burgerIcon');
+const burgerMenu = document.getElementById('menu');
+const isOpen = false;
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
   
     // If we need pagination
@@ -19,3 +23,15 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  const handleMenu = () => {
+    if(!isOpen){
+      burgerMenu.style.display = "block"
+      isOpen = true;
+    }else{
+      burgerMenu.style.display = "none"
+      isOpen = false;
+    }
+  }
+
+  burgerButton.onclick = handleMenu;

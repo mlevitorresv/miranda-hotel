@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="header__left">
-            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger" />
+            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger" id="burgerIcon"/>
             <a href="./index.html" class="header__left--logo">
                 <h1 class="header__left--logo--H">H</h1>
                 <h1 class="header__left--logo--name">Hotel<br />Miranda</h1>
@@ -25,7 +25,7 @@
             <img src="./media/lensIcon.png" alt="lens icon"  class="header__right--lens"/>
         </div>
 
-        <div class="header__menu">
+        <div class="header__menu" id="menu">
             <ul class="header__menu--items">
                 <a href="./about.html" class="header__menu--items--link"><li class="header__menu--items--about">About Us</li></a>
                 <a href="./rooms.html" class="header__menu--items--link"><li class="header__menu--items--rooms">Rooms</li></a>
@@ -128,10 +128,57 @@
         <div class="main__facilities">
             <p class="main__facilities--info">FACILITIES</p>
             <h1 class="main__facilities--title">Core Features</h1>
-            <p class="main__facilities--rating">01</p>
-            <img src="./media/iconRating.png" alt="icon rating" class="main__facilities--rating--icon">
-            <h4 class="main__facilities--subtitle">Have High Rating</h4>
-            <p class="main__facilities--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide main__facilities--rating">
+                    <p class="main__facilities--rating--num">01</p>
+                    <img src="./media/iconRating.png" alt="icon rating" class="main__facilities--rating--icon">
+                    <h4 class="main__facilities--rating--subtitle">Have High Rating</h4>
+                    <p class="main__facilities--rating--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                  </div>
+
+                  <div class="swiper-slide main__facilities--rating">
+                    <p class="main__facilities--rating--num">02</p>
+                    <img src="./media/clock.png" alt="clock icon" class="main__facilities--rating--icon">
+                    <h4 class="main__facilities--rating--subtitle">Quiet Hours</h4>
+                    <p class="main__facilities--rating--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                  </div>
+
+                  <div class="swiper-slide main__facilities--rating">
+                    <p class="main__facilities--rating--num">03</p>
+                    <img src="./media/location.png" alt="location icon" class="main__facilities--rating--icon">
+                    <h4 class="main__facilities--rating--subtitle">Best Location</h4>
+                    <p class="main__facilities--rating--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                  </div>
+
+                  <div class="swiper-slide main__facilities--rating">
+                    <p class="main__facilities--rating--num">04</p>
+                    <img src="./media/clockCross.png" alt="clock with cross icon" class="main__facilities--rating--icon">
+                    <h4 class="main__facilities--rating--subtitle">Free Cancellation</h4>
+                    <p class="main__facilities--rating--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                  </div>
+
+                  <div class="swiper-slide main__facilities--rating">
+                    <p class="main__facilities--rating--num">05</p>
+                    <img src="./media/payment.png" alt="payment icon" class="main__facilities--rating--icon">
+                    <h4 class="main__facilities--rating--subtitle">Payment Options</h4>
+                    <p class="main__facilities--rating--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                  </div>
+
+                  <div class="swiper-slide main__facilities--rating">
+                    <p class="main__facilities--rating--num">06</p>
+                    <img src="./media/certificate.png" alt="certificate icon" class="main__facilities--rating--icon">
+                    <h4 class="main__facilities--rating--subtitle">Special Offers</h4>
+                    <p class="main__facilities--rating--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                  </div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
         </div>
         <div class="main__menu">
             <img src="/media/iconDonut.png" alt="donut icon" class="main__menu--donut">
@@ -169,7 +216,7 @@
                   <div class="swiper-slide main__slider--swiper--wrapper--slide"><img src="./media/room.jpg" alt="room of hotel" class="slide main__slider--swiper--wrapper--slide--img" /></div>
                 </div>
     
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination main__slider--swiper--pagination"></div>
             </div>
         </div>
         <div class="main__data">

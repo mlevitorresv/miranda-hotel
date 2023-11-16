@@ -21,33 +21,35 @@
     }
 
     &--rating{
-        float: right;
-        color: rgba(34, 34, 34, 0.04);
-        font-family: 'Archivo';
-        font-size: 7.5em;
-        font-weight: 700;
-    }
+        &--num{
+            float: right;
+            color: rgba(34, 34, 34, 0.04);
+            font-family: 'Archivo';
+            font-size: 7.5em;
+            font-weight: 700;
+        }
 
-    &--rating--icon{
-        position: relative;
-        top: 5em;
-        margin-bottom: 6em;
-    }   
+        &--icon{
+            position: relative;
+            top: 5em;
+            margin-bottom: 6em;
+        }   
 
-    &--subtitle{
-        color: #222;
-        font-family: 'Old Standard TT';
-        font-size: 1.9em;
-        font-weight: 400;
-        line-height: 1.9em;
-    }
+        &--subtitle{
+            color: #222;
+            font-family: 'Old Standard TT';
+            font-size: 1.9em;
+            font-weight: 400;
+            line-height: 1.9em;
+        }
 
-    &--desc{
-        color: #777;
-        font-family: 'Archivo';
-        font-size: .9em;
-        font-weight: 400;
-        line-height: 1.5em;
-        width: 80%;
+        &--desc{
+            color: #777;
+            font-family: 'Archivo';
+            font-size: .9em;
+            font-weight: 400;
+            line-height: 1.5em;
+            width: 80%;
+        }
     }
 }

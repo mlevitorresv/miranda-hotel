@@ -43,8 +43,17 @@
     }
 
     &__menu{
-        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: #fff;
         width: 100%;
+        left: 0;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 1.3em;
+        justify-content: space-around;
+        top: 2em;
+
 
         &--items{
             list-style-type: none;        

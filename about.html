@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="./css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>About</title>
 </head>
 <body>
     <header class="header">
         <div class="header__left">
-            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger" />
+            <img src="./media/burgerIcon.png" alt="menu icon" class="header__left--burger"  id="burgerIcon"/>
             <a href="./index.html" class="header__left--logo">
                 <h1 class="header__left--logo--H">H</h1>
                 <h1 class="header__left--logo--name">Hotel<br />Miranda</h1>
@@ -21,7 +25,7 @@
             <img src="./media/lensIcon.png" alt="lens icon"  class="header__right--lens"/>
         </div>
 
-        <div class="header__menu">
+        <div class="header__menu" id="menu">
             <ul class="header__menu--items">
                 <a href="./about.html" class="header__menu--items--link"><li class="header__menu--items--about">About Us</li></a>
                 <a href="./rooms.html" class="header__menu--items--link"><li class="header__menu--items--rooms">Rooms</li></a>
@@ -75,11 +79,53 @@
         <div class="main__us--facilities">
             <p class="main__us--facilities--info">FACILITIES</p>
             <h1 class="main__us--facilities--title">Core Features</h1>
-            <div class="main__us--facilities--content">
-                <p class="main__us--facilities--content--rating">01</p>
-                <img src="./media/iconRating.png" alt="icon rating" class="main__us--facilities--content--rating--icon">
-                <h4 class="main__us--facilities--content--subtitle">Have High Rating</h4>
-                <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main__us--facilities--content">
+                        <p class="main__us--facilities--content--rating">01</p>
+                        <img src="./media/iconRating.png" alt="icon rating" class="main__us--facilities--content--rating--icon">
+                        <h4 class="main__us--facilities--content--subtitle">Have High Rating</h4>
+                        <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+
+                    <div class="swiper-slide main__us--facilities--content">
+                        <p class="main__us--facilities--content--rating">02</p>
+                        <img src="./media/clock.png" alt="clock icon" class="main__us--facilities--content--rating--icon">
+                        <h4 class="main__us--facilities--content--subtitle">Quiet Hours</h4>
+                        <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+
+                    <div class="swiper-slide main__us--facilities--content">
+                        <p class="main__us--facilities--content--rating">03</p>
+                        <img src="./media/location.png" alt="location icon" class="main__us--facilities--content--rating--icon">
+                        <h4 class="main__us--facilities--content--subtitle">Best Location</h4>
+                        <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+
+                    <div class="swiper-slide main__us--facilities--content">
+                        <p class="main__us--facilities--content--rating">04</p>
+                        <img src="./media/clockCross.png" alt="clock with cross icon" class="main__us--facilities--content--rating--icon">
+                        <h4 class="main__us--facilities--content--subtitle">Free Cancellation</h4>
+                        <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+
+                    <div class="swiper-slide main__us--facilities--content">
+                        <p class="main__us--facilities--content--rating">05</p>
+                        <img src="./media/payment.png" alt="payment icon" class="main__us--facilities--content--rating--icon">
+                        <h4 class="main__us--facilities--content--subtitle">Payment Options</h4>
+                        <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+
+                    <div class="swiper-slide main__us--facilities--content">
+                        <p class="main__us--facilities--content--rating">06</p>
+                        <img src="./media/certificate.png" alt="certificate icon" class="main__us--facilities--content--rating--icon">
+                        <h4 class="main__us--facilities--content--subtitle">Special Offers</h4>
+                        <p class="main__us--facilities--content--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -113,7 +159,18 @@
                 </p>
                 <img src="./media/arrow.svg" alt="an arrow svg" class="main__us--facts--element--arrow">
             </div>
-            <img src="./media/hotelUnderground.jpg" alt="hotel terrace" class="main__us--facts--image" />
+            <div class="main__us--facts--slider">
+                <div class="swiper main__us--facts--slider--swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper main__us--facts--slider--swiper--wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide main__us--facts--slider--swiper--wrapper--slide"><img src="./media/gym.jpg" alt="gym of hotel" class="slide main__us--facts--slider--swiper--wrapper--slide--img" /></div>
+                      <div class="swiper-slide main__us--facts--slider--swiper--wrapper--slide"><img src="./media/restaurant.jpg" alt="restaurant of hotel" class="slide main__us--facts--slider--swiper--wrapper--slide--img" /></div>
+                    </div>
+        
+                    <div class="swiper-pagination main__slider--swiper--pagination"></div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -194,5 +251,7 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
