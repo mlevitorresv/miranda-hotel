@@ -427,12 +427,17 @@ body {
 .main__menu {
   padding: 2em 1em;
 }
+.main__menu--donut {
+  position: absolute;
+  right: 0;
+}
 .main__menu--info {
   color: #777;
   font-family: "Archivo";
   font-size: 0.9em;
   font-weight: 700;
   letter-spacing: 0.2em;
+  padding-top: 10em;
 }
 .main__menu--title {
   color: #222;
