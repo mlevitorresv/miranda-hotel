@@ -138,6 +138,34 @@ body {
   margin-bottom: 2em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__info {
+    padding: 7em 20em 5em;
+  }
+  .main__info--slogan {
+    font-family: "Archivo";
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2em;
+    margin-bottom: 2em;
+  }
+  .main__info--title {
+    font-family: "Old Standard TT";
+    font-size: 7.5em;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+    width: 60%;
+  }
+  .main__info--bt {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 17%;
+    display: inline-block;
+    color: white;
+    margin: 0 1em;
+  }
+}
 .main__availability {
   padding: 2em 1em;
   background-color: #222;
@@ -457,9 +485,6 @@ body {
 .main__menu--food--img {
   width: 120px;
   height: 120px;
-}
-.main__menu--food--text {
-  margin-left: 1em;
 }
 .main__menu--food--text--title {
   color: #222;

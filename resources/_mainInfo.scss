@@ -40,3 +40,38 @@
         margin-bottom: 2em;
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+
+    .main__info{
+        padding: 7em 20em 5em;
+
+        &--slogan{
+            font-family: 'Archivo';
+            font-size: .9em;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: .2em;
+            margin-bottom: 2em;
+        }
+
+        &--title{
+            font-family: 'Old Standard TT';
+            font-size: 7.5em;
+            font-weight: 400;
+            margin-bottom: .2em;
+            width: 60%;
+        }
+
+        &--bt{
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            width: 17%;
+            display: inline-block;
+            color: white;
+            margin: 0 1em;
+        }
+    }
+
+}
