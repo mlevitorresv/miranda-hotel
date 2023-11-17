@@ -53,7 +53,10 @@
         }
     }
 
-    .swiper {  
+    .swiper {          
+        &-pagination{            
+            position: initial;
+        }
         .swiper-pagination-bullet-active {
           background-color: #BEAD8E;
         }
