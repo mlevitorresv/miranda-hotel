@@ -30,7 +30,7 @@
 
         position: relative;
         top: 2em;
-        right: -12em;
+        left: 60%;
 
         &--gold{
             color: #BEAD8E;
@@ -38,3 +38,14 @@
     }
 }
 
+
+@media only screen and (min-width: 1000px){
+    .main__us--intro{
+        padding: 10em 20% 3em;
+
+        &--divider{
+            top: 3em;
+            left: 95%;
+        }
+    }
+}

@@ -81,6 +81,7 @@ body {
     background-color: #222;
   }
   .header__all {
+    padding: 2em 5em;
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
@@ -906,12 +907,21 @@ body {
   font-weight: 700;
   position: relative;
   top: 2em;
-  right: -12em;
+  left: 60%;
 }
 .main__us--intro--divider--gold {
   color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__us--intro {
+    padding: 10em 20% 3em;
+  }
+  .main__us--intro--divider {
+    top: 3em;
+    left: 95%;
+  }
+}
 .main__us--video {
   margin: 2em 1em;
 }
@@ -919,6 +929,14 @@ body {
   width: 100%;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__us--video {
+    margin: 10em 20%;
+  }
+  .main__us--video--repro {
+    height: 40em;
+  }
+}
 .main__us--customer {
   padding: 1em 1em;
 }
