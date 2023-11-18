@@ -1667,7 +1667,12 @@ body {
     height: 30em;
   }
   .main__offers--elements--room--data {
-    padding: 0 4em;
+    margin: 0 4em;
+    padding: 2em 2em 0;
+    position: relative;
+    bottom: 8em;
+    background-color: white;
+    border-top: 5px solid #BDAC8D;
   }
   .main__offers--elements--room--data--separator {
     display: block;
