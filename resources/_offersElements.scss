@@ -42,14 +42,13 @@
 
         &--data{
             padding: 0 1em;
-
             &--info{
                 color: #777;
                 font-family: 'Archivo';
                 font-size: .9em;
                 font-weight: 700;
             }
-    
+        
             &--title{
                 color: #222;
                 font-family: 'Old Standard TT';
@@ -57,27 +56,34 @@
                 font-weight: 400;
             }
 
-            &--desc{
-                margin: 1em 0;
-                color: #777;
-                font-family: 'Roboto';
-                font-size: .9em;
-                font-weight: 400;
-                line-height: 1.8em;
+            &--separator{
+                display: none;
             }
 
-            &--amenities{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-
-                &--element{
-                    margin-top: 1em;
+            &--content{
+                &--desc{
+                    margin: 1em 0;
                     color: #777;
                     font-family: 'Roboto';
                     font-size: .9em;
-                    font-weight: 500;
+                    font-weight: 400;
+                    line-height: 1.8em;
+                }
+
+                &--amenities{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+
+                    &--element{
+                        margin-top: 1em;
+                        color: #777;
+                        font-family: 'Roboto';
+                        font-size: .9em;
+                        font-weight: 500;
+                    }
                 }
             }
+            
 
             &--bt{
                 margin: 2em auto;
@@ -88,5 +94,50 @@
                 color: white;
             }
         }        
+    }
+}
+
+
+@media only screen and (min-width: 1000px){
+    .main__offers--elements{
+        margin: 0 20%;
+
+        &--room{
+
+            &--prices{
+                top: 4em;
+                left: 82.5%;
+            }
+
+
+            &--image{
+                height: 30em;
+            }
+
+
+            &--data{                
+                padding: 0 4em;
+                &--separator{
+                    display: block;
+                }
+
+                &--content{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    &--desc{
+                        width: 45%;
+                    }
+
+                    &--amenities{
+                        width: 40%;
+                    }
+                }
+                &--bt{
+                    width: auto;
+                    padding: 1.5em 4em;
+                }
+            }
+        }
     }
 }

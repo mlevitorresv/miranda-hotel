@@ -37,3 +37,15 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+    .main__offers--intro{
+        padding: 8em 20% 2em;
+
+        &--divider{
+            top: 2em;
+            left: 95%;
+        }
+    }
+}
