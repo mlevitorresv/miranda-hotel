@@ -4,3 +4,12 @@
     height: auto;
     border: 0;
 }
+
+@media only screen and (min-width: 1000px){
+    .main__contact--map{
+        width: 60%;
+        margin: 0 20%;
+        height: 50em;
+        border: 0;
+    }
+}

@@ -22,7 +22,7 @@
 
     &--divider{
         background-color: white;
-        padding: .5em;
+        padding: 1.5em;
         width: fit-content;
         color: #222;
         font-family: 'Archivo';
@@ -30,11 +30,23 @@
         font-weight: 700;
 
         position: relative;
-        top: 2em;
-        right: -14em;
+        top: 3em;
+        left: 60%;
 
         &--gold{
             color: #BEAD8E;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1000px){
+    .main__contact--intro{
+        padding: 10em 20% 0;
+
+        &--divider{
+            top: 0;
+            left: 95%;
         }
     }
 }

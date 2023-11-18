@@ -1134,19 +1134,9 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .main__us--facts--slider {
-    margin: 5em 20%;
-  }
   .main__us--facts--slider--swiper {
     width: 100%;
     height: 200px;
-  }
-  .main__us--facts--slider--swiper--wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  .main__us--facts--slider--swiper--wrapper--slide {
-    width: 50%;
   }
   .main__us--facts--slider--swiper--wrapper--slide--img {
     width: 100%;
@@ -1759,20 +1749,29 @@ body {
 }
 .main__contact--intro--divider {
   background-color: white;
-  padding: 0.5em;
+  padding: 1.5em;
   width: fit-content;
   color: #222;
   font-family: "Archivo";
   font-size: 1em;
   font-weight: 700;
   position: relative;
-  top: 2em;
-  right: -14em;
+  top: 3em;
+  left: 60%;
 }
 .main__contact--intro--divider--gold {
   color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__contact--intro {
+    padding: 10em 20% 0;
+  }
+  .main__contact--intro--divider {
+    top: 0;
+    left: 95%;
+  }
+}
 .main__contact--forms {
   padding: 2em 1em;
 }
@@ -1818,6 +1817,14 @@ body {
   border: 0;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__contact--map {
+    width: 60%;
+    margin: 0 20%;
+    height: 50em;
+    border: 0;
+  }
+}
 .main__contact--data {
   display: flex;
   flex-direction: column;
@@ -1825,6 +1832,16 @@ body {
   justify-content: space-around;
 }
 .main__contact--data--element {
+  margin-bottom: 1em;
+  border: none;
+  background-color: #F8F8F8;
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 1.5em;
+}
+.main__contact--data--element--textarea {
   margin-bottom: 1em;
   border: none;
   background-color: #F8F8F8;
@@ -1844,6 +1861,28 @@ body {
   font-weight: 700;
   letter-spacing: 0.2em;
   margin: 0 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .main__contact--data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 2em;
+    margin: auto 25%;
+  }
+  .main__contact--data--element {
+    margin: 0;
+    grid-row: span 1;
+  }
+  .main__contact--data--element--textarea {
+    grid-column: span 2;
+  }
+  .main__contact--data--send {
+    grid-column: span 2;
+    width: 25%;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
