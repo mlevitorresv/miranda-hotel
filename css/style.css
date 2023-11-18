@@ -956,6 +956,15 @@ body {
   justify-content: space-around;
 }
 
+@media only screen and (min-width: 100px) {
+  .main__us--customer {
+    margin: 0 20%;
+  }
+  .main__us--customer--title {
+    font-size: 4.5em;
+    margin-bottom: 1em;
+  }
+}
 .main__us--restaurant {
   margin: 2em 1em;
   padding: 1em;
@@ -964,7 +973,7 @@ body {
 .main__us--restaurant--image {
   width: 100%;
 }
-.main__us--restaurant--info {
+.main__us--restaurant--text--info {
   color: #777;
   font-family: "Archivo";
   font-size: 0.9em;
@@ -972,14 +981,14 @@ body {
   letter-spacing: 0.1em;
   margin-top: 1em;
 }
-.main__us--restaurant--title {
+.main__us--restaurant--text--title {
   color: #222;
   font-family: "Old Standard TT";
   font-size: 2.5em;
   font-weight: 400;
   margin-top: 0.5em;
 }
-.main__us--restaurant--desc {
+.main__us--restaurant--text--desc {
   color: #777;
   font-family: "Archivo";
   font-size: 0.9em;
@@ -987,7 +996,7 @@ body {
   line-height: 1.5em;
   margin-top: 1em;
 }
-.main__us--restaurant--bt {
+.main__us--restaurant--text--bt {
   margin-top: 1em;
   padding: 1em 3em;
   border: none;
@@ -1000,6 +1009,21 @@ body {
   letter-spacing: 0.1em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__us--restaurant {
+    box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+    margin: 5em 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main__us--restaurant--image {
+    width: 48%;
+  }
+  .main__us--restaurant--text {
+    width: 48%;
+  }
+}
 .main__us--facilities {
   background-color: #222;
   padding: 2em 1em;
