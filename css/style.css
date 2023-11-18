@@ -175,13 +175,17 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main__availability--form-text {
+.main__availability--form--data {
+  display: flex;
+  flex-direction: column;
+}
+.main__availability--form--data--text {
   font-family: "Roboto";
   font-size: 1em;
   font-weight: 700;
   margin-bottom: 1em;
 }
-.main__availability--form-input {
+.main__availability--form--data--input {
   margin-bottom: 2em;
   border: none;
   border-bottom: 2px solid #BEAD8E;
@@ -191,7 +195,7 @@ body {
   font-size: 0.9em;
   font-weight: 400;
 }
-.main__availability--form-bt {
+.main__availability--form--bt {
   background-color: #BEAD8E;
   padding: 1.5em 2em;
   width: 60%;
@@ -199,6 +203,24 @@ body {
   color: white;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__availability--form {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main__availability--form--data {
+    margin-left: 2em;
+  }
+  .main__availability--form--data--input {
+    width: 20em;
+    margin-bottom: 0;
+  }
+  .main__availability--form--bt {
+    width: 14%;
+    align-self: flex-start;
+    margin-left: 10em;
+  }
+}
 .main__about {
   margin-top: 4em;
 }
