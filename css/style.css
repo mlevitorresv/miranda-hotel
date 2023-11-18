@@ -394,7 +394,7 @@ body {
     background: transparent;
     width: 23%;
     position: relative;
-    left: 65%;
+    left: 60%;
     top: 5.6em;
     z-index: 100;
   }
@@ -417,6 +417,8 @@ body {
   }
   .main__about--team--strong--team {
     width: 16em;
+    height: 18em;
+    margin-top: 3em;
     display: block;
   }
   .main__about--luxury {
@@ -450,6 +452,43 @@ body {
     font-weight: 400;
     line-height: 1.3em;
     margin-top: 0.5em;
+  }
+  .main__about--rooms--swiper {
+    width: 100%;
+    height: auto;
+  }
+  .main__about--rooms--swiper--wrapper--slide--img {
+    width: 100%;
+  }
+  .main__about--rooms--duplex {
+    padding: 1em;
+  }
+  .main__about--rooms--duplex--title {
+    color: #222;
+    font-family: "Old Standard TT";
+    font-size: 1.8em;
+    font-weight: 400;
+  }
+  .main__about--rooms--duplex--desc {
+    color: #777;
+    font-family: "Roboto";
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  .main__about--rooms--duplex--price {
+    color: #BEAD8E;
+    font-family: "Archivo";
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2.6em;
+  }
+  .main__about--rooms--duplex--night {
+    color: #BEAD8E;
+    font-family: "Archivo";
+    font-size: 0.8em;
+    font-weight: 700;
+    line-height: 2.6em;
   }
 }
 .main__video {
@@ -493,6 +532,31 @@ body {
   letter-spacing: 0.2em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__video {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #222 70%, #AD9D82 30%);
+    padding: 7em 15%;
+  }
+  .main__video--title {
+    width: 40%;
+  }
+  .main__video--desc {
+    width: 38%;
+  }
+  .main__video--bt {
+    width: 17%;
+    margin-top: -30em;
+  }
+  .main__video--repro {
+    position: relative;
+    left: 45%;
+    bottom: 20em;
+    width: 40%;
+    height: 25em;
+  }
+}
 .main__facilities {
   padding: 2em 1em;
 }
@@ -648,6 +712,17 @@ body {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 15%;
+  }
+  .main__data--info {
+    margin: 2.5em 0;
+  }
+}
 .footer {
   margin-top: 2em;
   padding-top: 2em;

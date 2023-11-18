@@ -43,3 +43,36 @@
         letter-spacing: .2em;
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+    
+    .main__video{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right, #222 70%, #AD9D82 30%);
+
+        padding: 7em 15%;
+
+        &--title{
+            width: 40%;
+        }
+
+        &--desc{
+            width: 38%;
+        }
+
+        &--bt{
+            width: 17%;
+            margin-top: -30em;
+        }
+
+        &--repro{
+            position: relative;
+            left: 45%;
+            bottom: 20em;
+            width: 40%;
+            height:25em;
+        }
+    }
+}
