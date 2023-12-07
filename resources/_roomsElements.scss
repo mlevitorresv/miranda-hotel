@@ -57,18 +57,20 @@
 }
 
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 800px){
 
     .main__rooms--elements{
         width: 70%;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        margin: 0 15%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     
         &--element{
             text-align: center;
             margin-bottom: 3em;
             width: 20em;
+
         }
         
     }
