@@ -23,34 +23,75 @@
         font-weight: 400;
     }
 
-    &--food{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1em;
-
-        &--img{
-            width: 120px;
-            height: 120px;
-        }
-        &--text{
-            &--title{
-                color: #222;
-                font-family:'Old Standard TT';
-                font-size: 1.5em;
-                font-weight: 400;
-                line-height: 1.5em;
+    &--swiper{
+        padding: 2em 1em;
+        width: 100%;
+        
+          &--wrapper {
+            &--slide {
+                &--food{
+                    display: flex;
+                    align-items:center;
+                    margin-bottom: 1em;
+            
+                    &--img{
+                        width: 120px;
+                        height: 120px;
+                        margin-right: .5em;
+                    }
+                    &--text{
+                        &--title{
+                            color: #222;
+                            font-family:'Old Standard TT';
+                            font-size: 1.5em;
+                            font-weight: 400;
+                            line-height: 1.5em;
+                        }
+            
+                        &--desc{
+                            color: #222;
+                            font-family: 'Roboto';
+                            font-size: .9em;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 1.5em;
+                        }
+                    }
+            
+            
+                }
             }
 
-            &--desc{
-                color: #222;
-                font-family: 'Roboto';
-                font-size: .9em;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 1.5em;
-            }
+
+      
+            // &--button{
+            //   background-color: white;
+            //   width: 30px !important;
+            //   height: 30px !important;
+      
+            //   &::after,
+            //   &::before{
+            //     color: black;
+            //     font-size: 1em !important;
+            //   }
+      
+              
+            //   &:hover{
+            //     background-color: #BDAC8D;
+      
+            //     &::after,
+            //     &::before{
+            //       color: white;
+            //     }
+            //   }
+            // }
+          }
+      
+        //   &--pagination{
+        //     .swiper-pagination-bullet-active {
+        //       background-color: #BEAD8E;
+        //     }
+        //   }
         }
-
-
-    }
-}
+      }
+    
