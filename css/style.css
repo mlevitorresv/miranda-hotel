@@ -1233,6 +1233,19 @@ body {
   margin-left: 2em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__rooms--elements {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main__rooms--elements--element {
+    text-align: center;
+    margin-bottom: 3em;
+    width: 20em;
+  }
+}
 .main__details--intro {
   padding: 2em 1em;
   background-color: #333;
