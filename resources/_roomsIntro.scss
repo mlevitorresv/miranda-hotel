@@ -37,3 +37,15 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+    .main__rooms--intro{
+        padding: 5em 20% 3em;
+
+        &--divider{
+            top: 3em;
+            left: 90%;
+        }
+    }
+}

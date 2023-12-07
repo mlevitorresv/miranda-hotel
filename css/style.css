@@ -1182,6 +1182,15 @@ body {
   color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__rooms--intro {
+    padding: 5em 20% 3em;
+  }
+  .main__rooms--intro--divider {
+    top: 3em;
+    left: 90%;
+  }
+}
 .main__rooms--elements {
   padding: 2em 1em;
 }
