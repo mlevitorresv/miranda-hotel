@@ -26,3 +26,14 @@
         }
     }
 }
+
+@media only screen and (min-width: 1000px){
+    .main__details--room--amenities{
+        width: 70%;
+        margin: 0 10%;
+
+        &--elements{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}

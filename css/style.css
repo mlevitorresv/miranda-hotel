@@ -413,7 +413,7 @@ body {
   .main__about--team--strong {
     margin: 0;
     width: 16em;
-    left: 25%;
+    left: 15%;
     bottom: 65em;
   }
   .main__about--team--strong--team {
@@ -1201,7 +1201,7 @@ body {
 .main__rooms--elements--element--image {
   width: 100%;
 }
-.main__rooms--elements--element--icons {
+.main__rooms--elements--element--info--icons {
   position: relative;
   bottom: 1em;
   background: white;
@@ -1210,14 +1210,14 @@ body {
   padding: 0.5em;
   box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
 }
-.main__rooms--elements--element--title {
+.main__rooms--elements--element--info--title {
   color: #222;
   font-family: "Old Standard TT";
   font-size: 1.5em;
   font-style: normal;
   font-weight: 400;
 }
-.main__rooms--elements--element--desc {
+.main__rooms--elements--element--info--desc {
   color: #777;
   font-family: "Roboto";
   font-size: 0.9em;
@@ -1226,14 +1226,14 @@ body {
   line-height: 1.5em;
   margin-bottom: 1em;
 }
-.main__rooms--elements--element--price {
+.main__rooms--elements--element--booking--price {
   display: inline;
   color: #BEAD8E;
   font-family: "Archivo";
   font-size: 1em;
   font-weight: 700;
 }
-.main__rooms--elements--element--book {
+.main__rooms--elements--element--booking--book {
   display: inline;
   color: #BDBDBD;
   font-family: "Archivo";
@@ -1269,12 +1269,24 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
   }
   .main__rooms--elements--element--image {
-    width: 40%;
+    width: 20em;
   }
-  .main__rooms--elements--element--icons {
+  .main__rooms--elements--element--info--icons {
+    margin: 0;
     display: block;
+  }
+  .main__rooms--elements--element--info--desc {
+    width: 25em;
+  }
+  .main__rooms--elements--element--booking--price {
+    display: block;
+  }
+  .main__rooms--elements--element--booking--book {
+    display: block;
+    margin-left: 0;
   }
 }
 .main__details--intro {
@@ -1324,27 +1336,27 @@ body {
 .main__details--room {
   padding: 2em 1em;
 }
-.main__details--room--info {
+.main__details--room--info--bed {
   color: #777;
   font-family: "Archivo";
   font-size: 0.9em;
   font-weight: 700;
   letter-spacing: 0.2em;
 }
-.main__details--room--title {
+.main__details--room--info--title {
   color: #222;
   font-family: "Old Standard TT";
   font-size: 2.5em;
   font-weight: 400;
   line-height: 3em;
 }
-.main__details--room--price--number {
+.main__details--room--info--price--number {
   color: #BEAD8E;
   font-family: "Archivo";
   font-size: 2em;
   font-weight: 700;
 }
-.main__details--room--price--night {
+.main__details--room--info--price--night {
   color: #BEAD8E;
   font-family: "Archivo";
   font-size: 0.9em;
@@ -1405,6 +1417,49 @@ body {
   line-height: 1.5em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__details--room {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .main__details--room--info {
+    display: inline-block;
+    padding: 1em 1em 0;
+    position: relative;
+    top: 2em;
+    width: 60%;
+    background-color: white;
+  }
+  .main__details--room--info--title {
+    display: inline;
+    margin-right: 1em;
+    line-height: normal;
+  }
+  .main__details--room--info--price {
+    display: inline;
+  }
+  .main__details--room--image {
+    width: 70%;
+    margin: 0;
+  }
+  .main__details--room--availability {
+    display: inline-block;
+    width: 20%;
+    margin-left: 3em;
+    position: absolute;
+  }
+  .main__details--room--availability--subtitle {
+    margin: 0 0 1em;
+  }
+  .main__details--room--availability--form--bt {
+    font-size: 0.7em;
+    padding: 1.5em 0.7em;
+  }
+  .main__details--room--desc {
+    width: 70%;
+    margin-top: 2em;
+  }
+}
 .main__details--room--amenities {
   padding: 2em 1em;
 }
@@ -1430,6 +1485,15 @@ body {
   margin-bottom: 1em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__details--room--amenities {
+    width: 70%;
+    margin: 0 10%;
+  }
+  .main__details--room--amenities--elements {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 .main__details--room--person {
   padding: 2em 1em;
   text-align: center;
@@ -1476,6 +1540,12 @@ body {
   line-height: 1.5em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__details--room--person {
+    width: 21em;
+    margin-left: 10%;
+  }
+}
 .main__details--room--cancellation {
   padding: 2em 1em;
 }
@@ -1497,6 +1567,15 @@ body {
   line-height: 1.5em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__details--room--cancellation {
+    width: 50%;
+    margin-left: 10%;
+  }
+  .main__details--room--cancellation--title {
+    margin-bottom: 1em;
+  }
+}
 .main__details--room--related {
   padding: 2em 1em;
 }
@@ -1578,6 +1657,15 @@ body {
   margin-left: 2em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__details--room--related {
+    width: 50%;
+    margin-left: 10%;
+  }
+  .main__details--room--related--separator {
+    width: 70%;
+  }
+}
 .main__offers--intro {
   padding: 2em 1em;
   background-color: #333;
@@ -1917,6 +2005,36 @@ body {
   bottom: 0.3em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__contact--forms {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .main__contact--forms--element {
+    display: inline-flex;
+  }
+  .main__contact--forms--element--icon {
+    align-self: flex-start;
+  }
+  .main__contact--forms--element--data {
+    position: absolute;
+    left: 17em;
+  }
+  .main__contact--forms--element--data--key {
+    color: #222;
+    font-family: "Old Standard TT";
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  .main__contact--forms--element--data--value {
+    color: #777;
+    font-family: "Roboto";
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+}
 .main__contact--map {
   width: calc(100% - 2em);
   margin: 1em;

@@ -8,50 +8,56 @@
             width: 100%;
         }
 
-        &--icons{
-            position: relative;
-            bottom: 1em;
-            background: white;
-            width: fit-content;
-            margin: auto;
-            padding: 0.5em;
-            box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+        &--info{
+            &--icons{
+                position: relative;
+                bottom: 1em;
+                background: white;
+                width: fit-content;
+                margin: auto;
+                padding: 0.5em;
+                box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.05);
+            }
+    
+            &--title{
+                color: #222;
+                font-family: 'Old Standard TT';
+                font-size: 1.5em;
+                font-style: normal;
+                font-weight: 400;
+            }
+    
+            &--desc{
+                color: #777;
+                font-family: 'Roboto';
+                font-size: .9em;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5em;
+                margin-bottom: 1em;
+            }
         }
+        
 
-        &--title{
-            color: #222;
-            font-family: 'Old Standard TT';
-            font-size: 1.5em;
-            font-style: normal;
-            font-weight: 400;
+        &--booking{
+            &--price{
+                display: inline;
+                color: #BEAD8E;
+                font-family: 'Archivo';
+                font-size: 1em;
+                font-weight: 700;
+            }
+    
+            &--book{
+                display: inline;
+                color: #BDBDBD;
+                font-family: 'Archivo';
+                font-size: 1em;
+                font-weight: 700;
+                margin-left: 2em;
+            }
         }
-
-        &--desc{
-            color: #777;
-            font-family: 'Roboto';
-            font-size: .9em;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5em;
-            margin-bottom: 1em;
-        }
-
-        &--price{
-            display: inline;
-            color: #BEAD8E;
-            font-family: 'Archivo';
-            font-size: 1em;
-            font-weight: 700;
-        }
-
-        &--book{
-            display: inline;
-            color: #BDBDBD;
-            font-family: 'Archivo';
-            font-size: 1em;
-            font-weight: 700;
-            margin-left: 2em;
-        }
+        
     }
     
 }
@@ -91,13 +97,32 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-align: left;
 
             &--image{
-                width: 40%;
+                width: 20em;
             }
 
-            &--icons{
-                display: block;
+            &--info{
+                &--icons{
+                    margin: 0;
+                    display: block;
+                }
+                &--desc{
+                    width: 25em;
+                }
+            }
+            
+
+            &--booking{
+                &--price{
+                    display: block;
+                }
+        
+                &--book{
+                    display: block;
+                    margin-left: 0;
+                }
             }
         }
         
