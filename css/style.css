@@ -622,7 +622,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
   .main__facilities .swiper-slide {
-    flex: 0 0 21em;
     max-width: 21em;
   }
   .main__facilities .swiper-pagination {
@@ -680,7 +679,35 @@ body {
   font-weight: 400;
   line-height: 1.5em;
 }
+.main__menu--swiper--wrapper--button {
+  background-color: white;
+  width: 30px !important;
+  height: 30px !important;
+}
+.main__menu--swiper--wrapper--button::after, .main__menu--swiper--wrapper--button::before {
+  color: black;
+  font-size: 1em !important;
+}
+.main__menu--swiper--wrapper--button:hover {
+  background-color: #BDAC8D;
+}
+.main__menu--swiper--wrapper--button:hover::after, .main__menu--swiper--wrapper--button:hover::before {
+  color: white;
+}
+.main__menu--swiper--pagination .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
+}
 
+@media only screen and (min-width: 1000px) {
+  .main__menu {
+    width: 100%;
+    padding: 5% 15%;
+  }
+  .main__menu--swiper--wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .main__slider {
   padding: 2em 1em;
 }
@@ -1115,7 +1142,6 @@ body {
     gap: 1em;
   }
   .main__us--facilities .swiper-slide {
-    flex: 0 0 21em;
     max-width: 21em;
   }
   .main__us--facilities .swiper-pagination {
