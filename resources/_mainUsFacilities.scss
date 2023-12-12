@@ -64,3 +64,29 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+    .main__us--facilities{
+        width: 100%;
+        padding: 5% 15%;
+
+        .swiper {          
+            &-wrapper{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1em;
+
+            }
+
+            &-slide{
+                flex: 0 0 21em;
+                max-width: 21em;
+            }
+            
+            &-pagination{            
+                display: none;
+            }
+        }
+    }
+}

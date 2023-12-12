@@ -1104,6 +1104,24 @@ body {
   background-color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__us--facilities {
+    width: 100%;
+    padding: 5% 15%;
+  }
+  .main__us--facilities .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+  .main__us--facilities .swiper-slide {
+    flex: 0 0 21em;
+    max-width: 21em;
+  }
+  .main__us--facilities .swiper-pagination {
+    display: none;
+  }
+}
 .main__us--facts {
   padding: 2em 1em;
 }
