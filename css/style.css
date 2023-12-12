@@ -737,6 +737,23 @@ body {
   background-color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__slider {
+    width: 100%;
+    padding: 0 15% 5%;
+  }
+  .main__slider--swiper--wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__slider--swiper--wrapper--slide {
+    flex: 0 0 25em;
+    max-width: 25em;
+  }
+  .main__slider--swiper--pagination {
+    display: none;
+  }
+}
 .main__data {
   padding: 2em 1em;
   text-align: center;
@@ -1200,12 +1217,20 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .main__us--facts--slider--swiper {
+  .main__us--facts--slider {
     width: 100%;
-    height: 200px;
+    padding: 0 10% 5%;
   }
-  .main__us--facts--slider--swiper--wrapper--slide--img {
-    width: 100%;
+  .main__us--facts--slider--swiper--wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__us--facts--slider--swiper--wrapper--slide {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .main__us--facts--slider--swiper--pagination {
+    display: none;
   }
 }
 .main__rooms--intro {
