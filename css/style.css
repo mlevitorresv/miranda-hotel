@@ -612,6 +612,23 @@ body {
   background-color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__facilities {
+    width: 70%;
+    margin: 0 15%;
+  }
+  .main__facilities .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main__facilities .swiper-slide {
+    flex: 0 0 21em;
+    max-width: 21em;
+  }
+  .main__facilities .swiper-pagination {
+    display: none;
+  }
+}
 .main__menu {
   padding: 2em 1em;
 }

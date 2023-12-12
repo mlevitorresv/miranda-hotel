@@ -64,3 +64,25 @@
 }
     
   
+@media only screen and (min-width: 1000px){
+    .main__facilities{
+        width: 70%;
+        margin: 0 15%;
+
+        .swiper {          
+            &-wrapper{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            &-slide{
+                flex: 0 0 21em;
+                max-width: 21em;
+            }
+            
+            &-pagination{            
+                display: none;
+            }
+        }
+    }
+}
