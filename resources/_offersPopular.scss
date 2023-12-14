@@ -114,3 +114,13 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+  .main__offers--popular{
+    &--room{
+      width: 21em;
+      margin: 5% auto;
+    }
+  }
+}

@@ -2011,6 +2011,12 @@ body {
   margin-left: 2em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__offers--popular--room {
+    width: 21em;
+    margin: 5% auto;
+  }
+}
 .main__contact--intro {
   padding: 2em 1em;
   background-color: #333;
