@@ -704,8 +704,11 @@ body {
     padding: 5% 15%;
   }
   .main__menu--swiper--wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__menu--swiper--wrapper--slide {
+    flex: 0 0 45%;
   }
 }
 .main__slider {
