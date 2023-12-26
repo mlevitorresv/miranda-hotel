@@ -2105,16 +2105,17 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .main__contact--forms {
-    width: 70%;
-    margin: 0 15%;
+    width: 80%;
+    margin: 0 10%;
     display: flex;
+    justify-content: space-between;
   }
   .main__contact--forms--element--icon {
     align-self: flex-start;
   }
   .main__contact--forms--element--data {
     position: relative;
-    right: 20em;
+    left: -13em;
   }
   .main__contact--forms--element--data--key {
     color: #222;
@@ -2140,8 +2141,8 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .main__contact--map {
-    width: 70%;
-    margin: 0 15%;
+    width: 80%;
+    margin: 0 10%;
     height: 50em;
     border: 0;
   }
