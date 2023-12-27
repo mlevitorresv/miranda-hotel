@@ -1,6 +1,4 @@
-const screenWidth = window.innerWidth || document.documentElement.clientWidth;
-
-const scroll = screenWidth < 1000;
+const scroll = window.screen.width < 1000;
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
