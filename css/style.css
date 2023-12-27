@@ -730,6 +730,9 @@ body {
   width: 30px !important;
   height: 30px !important;
 }
+.main__slider--swiper--wrapper--button__none {
+  display: none;
+}
 .main__slider--swiper--wrapper--button::after, .main__slider--swiper--wrapper--button::before {
   color: black;
   font-size: 1em !important;
