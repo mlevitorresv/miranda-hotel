@@ -1,5 +1,3 @@
-const scroll = window.screen.width < 1000;
-
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -21,16 +19,6 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
-    allowSlideNext: scroll,  // Permite deslizar a la siguiente diapositiva
-    allowSlidePrev: scroll,
+    allowSlideNext: true,  // Permite deslizar a la siguiente diapositiva
+    allowSlidePrev: true,
 });
-
-
-
-const handleSwiperScroll =  () => {
-  if(scroll) swiper.detachEvents();
-  else swiper.attachEvents();
-}
-
-window.addEventListener('resize', () => handleSwiperScroll);
-window.addEventListener('load', () => handleSwiperScroll);
