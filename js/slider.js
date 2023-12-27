@@ -1,6 +1,6 @@
 const screenWidth = window.innerWidth || document.documentElement.clientWidth;
 
-const scroll = screenWidth < 1000 ? true : false
+const scroll = screenWidth < 1000;
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
@@ -28,3 +28,10 @@ const swiper = new Swiper('.swiper', {
 
 
 
+const handleSwiperScroll =  () => {
+  if(scroll) swiper.detachEvents();
+  else swiper.attachEvents();
+}
+
+window.addEventListener('resize', () => handleSwiperScroll);
+window.addEventListener('load', () => handleSwiperScroll);

@@ -605,6 +605,10 @@ body {
   line-height: 1.5em;
   width: 80%;
 }
+.main__facilities--rating:hover {
+  background-color: #222;
+  color: white;
+}
 .main__facilities .swiper-pagination {
   position: initial;
 }
@@ -1816,7 +1820,8 @@ body {
   width: fit-content;
   position: relative;
   bottom: 5em;
-  left: 13em;
+  float: right;
+  margin-right: 2em;
 }
 .main__offers--elements--room--prices--price-old {
   color: #BEAD8E;
@@ -1889,8 +1894,10 @@ body {
     margin: 0 20%;
   }
   .main__offers--elements--room--prices {
-    top: 4em;
-    left: 82.5%;
+    z-index: 10;
+    right: 3em;
+    margin-left: 2em;
+    bottom: 6em;
   }
   .main__offers--elements--room--image {
     height: 30em;

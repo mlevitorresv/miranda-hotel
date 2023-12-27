@@ -8,13 +8,9 @@ let isOpen = false;
 const handleMenu = () => {
   if(!isOpen){
     burgerMenu.style.display = "block";
-    // burgerButton.style.display = 'none';
-    // crossBurgerButton.style.display = 'block';
     isOpen = true;
   }else{
     burgerMenu.style.display = "none"
-    burgerButton.style.display = 'block';
-    // crossBurgerButton.style.display = 'none';
     isOpen = false;
   }
 }
